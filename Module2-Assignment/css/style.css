@@ -12,10 +12,14 @@ h1 {
 p {
   /*border: 1px solid black;*/
   /*background-color: gray;*/
+  position: relative;
+  border: 1px solid red;
   width: 90%;
+  height: 150px;
   margin-right: auto;
-  margin-left: 10px;
-  margin-top: 40px;
+  margin-left: auto;
+  /*margin-left: 10px;
+  margin-top: 40px;*/
   color: black;
 }
 
@@ -31,7 +35,7 @@ p {
   margin-bottom: 20px;
 }
 
-.container > section {
+p > section {
   position: absolute;
   /*top: 5px;*/
   right: -1px;
@@ -47,6 +51,10 @@ p {
 
 .title_region1 {
   background-color: #DAF7A6;
+  border: 1px solid black;
+  position: absolute;
+  right: -1px;
+  top: -1px;
 }
 
 .title_region2 {
@@ -60,12 +68,13 @@ p {
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+  border: 1px solid black;
 }
 
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    /*border: 1px solid green;*/
+    border: 1px solid green;
     position: relative;
 
   }
@@ -113,6 +122,10 @@ p {
     float: left;
     /*border: 1px solid green;*/
     position: relative;
+  }
+
+  .container {
+    width: 90%;
   }
   .col-md-1 {
     width: 8.33%;
