@@ -1,0 +1,102 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.navbar-header {
+  border: 0;
+  height: 80px;
+  background-color: gray;
+}
+
+/*.navbar .container {
+  border: 0;
+}*/
+
+#header-nav {
+  /*background-color: #f6b319;*/
+  border-radius: 0;
+  border:0;
+  /*padding-top: 25px;*/
+  margin-bottom: 0;
+  background-color: gray;
+}
+
+
+.navbar-brand {
+  /*text-align: center;*/
+  margin-top: 10px;
+  margin-left: 20px;
+  padding:auto;
+  /*padding-top: -10px;*/
+}
+
+.navbar-brand h1 {
+  /*font-family: 'Lora', serif;*/
+  /*color: #557c3e;*/
+  /*font-size: 1.5em;*/
+  /*text-transform: uppercase;*/
+  /*font-weight: bold;*/
+  /*text-shadow: 1px 1px 1px #222;*/
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: .75;*/
+
+}
+
+.row > div {
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: gray;
+}
+
+#chicken-title,#chicken-detail {
+  color: white;
+
+}
+
+#chicken-title {
+  font-size:1.2em;
+  margin-bottom: 10px;
+}
+
+.navbar-toggle {
+  margin-top: 15px;
+  margin-right: 25px;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  background-color: lightgray;
+
+}
+
+.navbar-toggle:hover {
+  background-color: white !important;
+}
+
+.navbar-toggle .icon-bar{
+  width: 40px;
+  height: 5px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nav-list a {
+  /*text-align: center;*/
+  color: white;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#nav-list a:hover {
+  color: black;
+}
+
+
+
